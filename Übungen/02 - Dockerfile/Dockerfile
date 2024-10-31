@@ -1,0 +1,1 @@
+# Erstelle einen Docker-Container welches eine eigens erstellte HTML-File als Website bereitstellt
