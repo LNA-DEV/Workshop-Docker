@@ -2,9 +2,9 @@
 
 ## Allgemeines
 
-Container-Technologien ermöglichen es, Anwendungen und deren Abhängigkeiten in isolierte Umgebungen zu packen. Sie sind leichter und schneller als virtuelle Maschinen und fördern eine konsistente Laufzeitumgebung über verschiedene Plattformen hinweg.
+Container-Technologien ermöglichen es, Anwendungen und deren Abhängigkeiten in isolierte Umgebungen zu verpacken. Dadurch sind sie leichter und schneller als virtuelle Maschinen und fördern eine konsistente Runtime über verschiedene Plattformen hinweg.
 
-- **Container vs. VM**: Container teilen sich den Host-Kernel, was sie im Vergleich zu VMs leichter und schneller macht. 
+- **Container vs. VM**: Container teilen sich den Host-Kernel, was sie im Vergleich zu VMs leichter und schneller macht.
 - **Docker**: Eine der bekanntesten Plattformen für Containerisierung, die das Erstellen, Verteilen und Verwalten von Containern vereinfacht.
 
 ## Docker CLI
@@ -23,7 +23,7 @@ Mit der Docker CLI können Container-Operationen von der Kommandozeile aus durch
 
 - `docker images`: Alle lokal verfügbaren Images anzeigen.
 - `docker pull <image>`: Ein Image aus einem Registry herunterladen.
-- `docker rmi <image>`: Ein Image löschen.
+- `docker rm <image>`: Ein Image löschen.
 
 ### Volumes
 
@@ -135,3 +135,10 @@ Die **Open Container Initiative (OCI)** ist eine offene Governance-Struktur, die
 - **OCI Runtime Specification**: Definiert, wie ein Container-Laufzeit-Umgebung verhalten soll.
 
 Diese Standards fördern die Kompatibilität zwischen verschiedenen Container-Technologien und erleichtern die Interoperabilität.
+
+## Links
+
+- [DockerHub](https://hub.docker.com/)
+- [Docker Docs](https://docs.docker.com/)
+- [Podman](https://podman.io/)
+- [A Beginner-Friendly Introduction to Containers, VMs and Docker by Freecodecamp](https://www.freecodecamp.org/news/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b/)
