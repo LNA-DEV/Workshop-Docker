@@ -3,6 +3,7 @@
 # Deswegen muss diese Datei im Container sein
 # Exposen sie den Port 5000
 # Ersetzen sie XXX mit einem sinnvollen Basis-Image
+# Tipp: Um den package manager apk zu verwenden wird eine Alpine Version des Images benötigt!
 
 FROM XXX 
 ENV FLASK_APP=app.py
