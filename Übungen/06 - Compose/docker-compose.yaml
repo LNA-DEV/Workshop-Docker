@@ -1,1 +1,2 @@
-# Erstellen sie eine Docker Compose Datei welche einen web Service und einen Redis Service definiert
+# Übung 06: Erstellen Sie eine Compose-Datei mit einem Service "web" (gebaut aus dem Dockerfile)
+# und einem Service "redis" (Image redis:8-alpine). Details: siehe README.md
